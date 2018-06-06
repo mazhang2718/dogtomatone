@@ -8,7 +8,7 @@ Dogtomatone is a fun little hand puppet instrument I developed during a weekend 
 
 You can watch a video of it in action here:
 
-[Video Link](#)
+[Video Link](https://twitter.com/_mazhang/status/1004459367041773568)
 
 ## how it works
 
