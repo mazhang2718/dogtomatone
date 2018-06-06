@@ -4,7 +4,7 @@
 
 Dogtomatone is a fun little hand puppet instrument I developed during a weekend hardware hacking workshop! When you open the dog's mouth, it barks; and the pitch that it barks at is controlled by a strip on the back of the dog.
 
-![Dogtomatone](IMG_7885.jpg)
+![Dogtomatone](IMG_7885.JPG)
 
 You can watch a video of it in action here:
 
@@ -18,13 +18,13 @@ How it functions is through two different sensors, and a little bit of software.
 
 First, to trigger the barking, I threaded a light sensor through the back of the dog's mouth. When the dog's mouth is opened, light hits the sensor, causing the reading from the light sensor to go from a high output to a low output. This reading is captured through the Arduino code linked in the repo, and sent through a baud channel to a Max patch (also linked to in the repo). When the Max patch detects this change from darkness to light, it triggers a barking sound file.
 
-![Light Sensor](IMG_7890.jpg)
+![Light Sensor](IMG_7890.JPG)
 
 ### pitch changing
 
 Then, to change the pitch of the barks, I attached a soft potentiometer to the back of the dog. A soft potentiometer is basically a linearly changing resistor - depending on where you press on the back of the strip, a different resistance value is given. So, I captured the resistance value readings through the Arduino code, sent it to Max, and then in Max, mapped different resistance values to different pitch shifting multipliers. Combined with the barking trigger, you can now change the pitch of barks and play songs with it!
 
-![Soft Pot](IMG_7888.jpg)
+![Soft Pot](IMG_7888.JPG)
 
 ### other things
 
